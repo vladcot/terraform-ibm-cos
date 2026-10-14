@@ -1,11 +1,11 @@
 variable "ibmcloud_api_key" {
   type        = string
-  description = "Cheia ta API IBM Cloud pentru autentificare"
+  description = "Your IBM Cloud API key for authentication"
   sensitive   = true
 }
 
 variable "region" {
   type        = string
-  description = "Regiunea IBM Cloud unde se vor crea resursele"
+  description = "The IBM Cloud region where resources will be created"
   default     = "us-south"
 }
